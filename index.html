@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;  
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tr>
+            <th>precio</th>
+            <th>producto</th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>         
+        </tr>
+        <tr>
+            <td>Chanchito feliz</td>
+            <td>19,90$  </td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz muy feliz</td>
+            <td>29,90$ </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: 49.80$</td>
+    </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <!--ol es lista  ordenada -->
+    <ol>
+        <li value="50">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style: lower-alpha;">sub elemento 1</li>
+                <li style="list-style: lower-alpha;">sub elemento 2</li>
+                <li style="list-style: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+
+    </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre</label>
+        <input  value="Chanchito"  type="text"  id="Nombre" name="Nombre" placeholder="Chanchito feliz..."/>
+        <br>
+        <label for="apellido">apellido</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Chanchito triste..."/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">este es un valor por defecto</textarea>
+        <br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">tipo submit</button>
+    </form>
+    <h1>Mi primera Hading</h1>
+    <h2>Mi segundo  Heading</h2>
+    <h3>Mi tercer Heading</h3>
+    <h4>Mi cuarto Heading</h4>
+    <h5>Mi quinto Heading</h5>
+    <h6>Mi sexto Heading</h6>
+    <p>Chancito feliz esta muy feliz</p>
+    <p>Chanchito esta triste , muy triste</p>
+    <br>
+    <h2>Chnachito felipe</h2>
+    <p>este texto es mucho mas <span style="color: blue;">largo para mostrar </span>la etiqueta 
+        <br></br> span</p>
+    <!--este texto es un comentario y no va a 
+    aparecer en el explorador-->
+    <a target ="_blank" href="http://www.google.com">Ir a google</a>
+    <img src="img/468-thumbnail.png" width="400" />
+</body>
+</html>
